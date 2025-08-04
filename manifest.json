@@ -1,7 +1,7 @@
 {
   "name": "payment-provider-example",
-  "vendor": "vtex",
-  "version": "1.2.0",
+  "vendor": "tiendademelio",
+  "version": "0.0.0",
   "title": "Payment Provider Example",
   "description": "Reference app for Payment-Provider protocol implementers",
   "builders": {
@@ -22,7 +22,7 @@
     {
       "name": "outbound-access",
       "attrs": {
-        "host": "heimdall.vtexpayments.com.br",
+        "host": "tiendademelio.vtexpayments.com.br",
         "path": "/api/payment-provider/callback/*"
       }
     }
